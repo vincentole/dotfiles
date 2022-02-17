@@ -58,13 +58,13 @@ super + F12
 # SUPER + ... KEYS
 #################################################################
 
-#Atom
+#Editor
 super + e
-    atom
+    alacritty "Neovim" -e nvim 
 
 #Browser
 super + w
-    vivaldi-stable
+    google-chrome-stable
 
 #Conky-toggle
 super + c
@@ -84,9 +84,9 @@ super + x
 #super + r
 #    rofi-theme-selector
 
-#Urxvt
+#Terminal
 super + t
-    urxvt
+    alacritty
 
 #Pavucontrol
 super + v
@@ -428,7 +428,7 @@ super + shift + q
     herbstclient close
 
 #realod herbstluftwm
-super + shift +r
+super + shift + r
     herbstclient reload
 
 #Xkill
