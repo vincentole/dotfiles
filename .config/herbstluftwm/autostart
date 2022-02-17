@@ -247,7 +247,7 @@ hc unlock
 xrandr --output DP-0 --off --output DP-1 --off --output HDMI-0 --mode 1920x1080 --pos 0x0 --rotate normal --output DP-2 --off --output DP-3 --off --output DP-4 --mode 1280x1024 --pos 1920x179 --rotate normal --output DP-5 --off
 
 #Dualmonitor setup
-# hc detect_monitors
+#hc detect_monitors
 hc set_monitors 1920x1080+0+0 1280x1024+1920+179
 
 #room for polybar on both monitors
