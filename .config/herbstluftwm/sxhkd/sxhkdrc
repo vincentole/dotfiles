@@ -60,7 +60,7 @@ super + F12
 
 #Editor
 super + e
-    alacritty "Neovim" -e nvim 
+    code 
 
 #Browser
 super + w
